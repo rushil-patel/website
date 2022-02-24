@@ -1,0 +1,20 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+}
+.nav-bar .nav-main {
+    padding: 0px 10px;
+    font-size: 2em;
+    flex-basis: auto;
+}
+.nav-bar .nav-items {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.nav-bar .nav-item {
+    padding: 0px 5px;
+    font-size: 2em;
+}
